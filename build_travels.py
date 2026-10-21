@@ -6,7 +6,7 @@ def pic(t,pre,alt=None,cls=''):
     if not t: return f'<div class="tp-ph {cls}" aria-hidden="true">Photo coming soon</div>'
     return f'<img class="{cls}" src="{pre}images/{t}-sm.webp" srcset="{pre}images/{t}-sm.webp 500w, {pre}images/{t}.webp 1000w" sizes="(max-width:700px) 100vw, 33vw" alt="{alt or ""}" loading="lazy" decoding="async">'
 def card(t,pre,link):
-    d='<span class="draft-tag">Draft</span>' if t.get('draft') else ''
+    d='<span class="draft-tag">Draft pending George</span>' if t.get('draft') else ''
     return f'<article class="trip"{" data-status=\"DRAFT\"" if t.get("draft") else ""}><a href="{link}">{pic(t["image"],pre,t["alt"])}<div class="trip-body"><p class="trip-date">{t["date"]} {d}</p><h3>{t["title"]}</h3>{"<p class=\"trip-place\">"+t["place"]+"</p>" if t.get("place") else ""}<p>{t["teaser"]}</p><span class="more">Read more &rarr;</span></div></a></article>'
 def page(title,pre,body,desc):
     return f'''<!doctype html>
@@ -29,7 +29,8 @@ def build(D,F,H,K,INTRO,M):
         ph=''.join(f'<figure class="gi"><a href="../../images/{p}.webp">{pic(p,"../../",c)}</a><figcaption>{c}</figcaption></figure>' for p,c in t.get('photos',[]))
         hero=pic(t['image'],'../../',t['alt'],'trip-hero')
         d='<!-- STATUS: DRAFT stub, needs George\'s story -->' if t.get('draft') else ''
-        body=f'{d}<article class="wrap trip-page"><p class="kicker"><a href="../">&larr; {H}</a></p><h1 class="ph1">{t["title"]}</h1><p class="trip-date">{t["date"]}{(" &middot; "+t["place"]) if t.get("place") else ""}</p>{hero}<div class="prose">{paras}</div>{"<div class=\"gallery\">"+ph+"</div>" if ph else ""}</article>'
+        badge='<p><span class="draft-tag">Draft pending George</span></p>' if t.get('draft') else ''
+        body=f'{d}<article class="wrap trip-page"><p class="kicker"><a href="../">&larr; {H}</a></p><h1 class="ph1">{t["title"]}</h1><p class="trip-date">{t["date"]}{(" &middot; "+t["place"]) if t.get("place") else ""}</p>{badge}{hero}<div class="prose">{paras}</div>{"<div class=\"gallery\">"+ph+"</div>" if ph else ""}</article>'
         open(f'{R}/{D}/{t["slug"]}/index.html','w').write(page(t['title'],'../../',body,t['teaser']))
     home=open(f'{R}/index.html').read()
     block='<!--'+M+'-->'+''.join(card(t,'',f'{D}/{t["slug"]}/') for t in trips[:3])+'<!--/'+M+'-->'
