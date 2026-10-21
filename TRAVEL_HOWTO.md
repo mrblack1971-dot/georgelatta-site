@@ -28,3 +28,13 @@ Same steps, different data file: add an entry to `traveling-man/visits.json`, th
 Fields: `slug`, `title` (lodge or Grand Lodge name), `place` (City, State), `date` (display), `sort` (YYYY-MM-DD),
 `image`/`alt` (empty = photo slot), `teaser`, `body` (paragraphs), optional `photos`, `draft`.
 Pages appear at `traveling-man/<slug>/`. Only verified visits (e.g. from the Masonic Life Facebook page or George).
+
+## Share previews, icons, sitemap (seo.py)
+`python3 build_travels.py` now also runs `seo.py`, which for every page:
+- adds canonical URL, Open Graph + Twitter card tags (all pointing at https://georgelatta.com/),
+- makes a 1200x630 share image in `og/` from the page's cover photo (navy/gold card if no photo),
+- adds favicon / apple-touch icon links, and the "Follow along on Facebook" footer,
+- fills `<!--FB:masonic-->`, `<!--FB:backroads-->`, `<!--FB:personal-->` button slots,
+- rewrites `sitemap.xml` and `robots.txt`.
+Facebook page URLs live in the `FB` dict at the top of `seo.py`.
+Domain move (Friday): add a `CNAME` file containing `georgelatta.com`. Until then, share previews/canonicals point at the future domain.

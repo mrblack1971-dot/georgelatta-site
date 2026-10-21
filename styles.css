@@ -1,7 +1,7 @@
 :root{--navy:#14213d;--ink:#1d2433;--gold:#c9a227;--cream:#faf7f0;--muted:#5b6475;--r:14px}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
 body{margin:0;font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--cream)}
-img{max-width:100%;display:block}h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.2;margin:.2em 0 .5em}
+img{max-width:100%;height:auto;display:block}h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.2;margin:.2em 0 .5em}
 h2{font-size:clamp(1.7rem,4vw,2.5rem)}a{color:var(--navy)}
 .skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:9}
 :focus-visible{outline:3px solid var(--gold);outline-offset:2px}
@@ -62,3 +62,19 @@ footer{background:var(--navy);color:#c5cde0;text-align:center;padding:22px;font-
 .stop-photos{display:grid;gap:12px;margin:14px 0}.stop-photos figure{margin:0}.stop-photos img{border-radius:10px;width:100%}
 .stop-photos figcaption{font-size:.85rem;color:var(--muted);padding-top:4px}
 @media(min-width:620px){.stop-photos{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}}
+/* polish pass 2026-10-21 */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.fbbtn{display:inline-flex;align-items:center;gap:8px}.fbbtn svg{flex:none}
+.fb-cta{margin:18px 0 26px}.social .fb-cta{margin:0}
+.follow{max-width:900px;margin:0 auto 14px}.follow-h{margin:0 0 10px;color:#fff;font:700 1.05rem Georgia,serif}
+.follow-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.fb{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 16px;border:1px solid rgba(201,162,39,.7);border-radius:999px;color:#fff;text-decoration:none;font-weight:600}
+.fb:hover{background:var(--gold);color:var(--navy)}.fb svg{color:var(--gold)}.fb:hover svg{color:var(--navy)}
+.btn.ghost-dark{background:transparent;color:var(--navy)}.cta.left{justify-content:flex-start;margin-top:20px}
+.notfound{min-height:50vh}
+.nav nav a{padding:10px 2px;min-height:44px;display:inline-flex;align-items:center}
+@media(max-width:759px){
+ .nav{padding:8px 14px 0}.nav nav{flex-wrap:nowrap;overflow-x:auto;width:100%;gap:18px;scrollbar-width:none;-webkit-overflow-scrolling:touch;mask-image:linear-gradient(90deg,#000 88%,transparent)}
+ .nav nav::-webkit-scrollbar{display:none}.nav nav a{white-space:nowrap;padding:8px 0}
+ html{scroll-padding-top:100px}
+}
