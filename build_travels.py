@@ -25,7 +25,7 @@ def build(D,F,H,K,INTRO,M):
     open(f'{R}/{D}/index.html','w').write(page(H,'../',f'<section class="wrap"><p class="kicker">{K}</p><h1 class="ph1">{H}</h1><p>{INTRO}</p><div class="trips">{cards}</div></section>',H+' | George Latta'))
     for t in trips:
         os.makedirs(f'{R}/{D}/{t["slug"]}',exist_ok=True)
-        paras=''.join(b if b.startswith('<!--') else f'<p>{b}</p>' for b in t['body'])
+        paras=''.join(b if b.startswith('<') else f'<p>{b}</p>' for b in t['body'])
         ph=''.join(f'<figure class="gi"><a href="../../images/{p}.webp">{pic(p,"../../",c)}</a><figcaption>{c}</figcaption></figure>' for p,c in t.get('photos',[]))
         hero=pic(t['image'],'../../',t['alt'],'trip-hero')
         d='<!-- STATUS: DRAFT stub, needs George\'s story -->' if t.get('draft') else ''

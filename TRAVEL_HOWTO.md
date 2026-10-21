@@ -13,6 +13,7 @@
    - `body` – list of paragraphs (HTML allowed; items starting with `<!--` are hidden comments)
    - `photos` – optional list of `[image-base-name, caption]` for a gallery on the trip page
    - `draft` – `true` shows a "Draft" tag; set `false` once George approves the story
+   - Items in `body` that start with `<` are used as raw HTML (headings, photo blocks); others become paragraphs.
    - Only real facts. No confirmation numbers, home address or room details.
 3. **Build:** `python3 build_travels.py` — regenerates `travels/index.html`, each `travels/<slug>/index.html`,
    and the 3 newest cards on the homepage (between `<!--TRIPS-->` markers; don't edit those by hand).
