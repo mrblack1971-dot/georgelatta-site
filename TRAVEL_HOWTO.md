@@ -19,3 +19,11 @@
 4. **Preview** `index.html` locally, then publish: push changed HTML/CSS to `main` of
    `mrblack1971-dot/georgelatta-site`; new images go up as a base64 tarball in `_b64/part_*`,
    which `.github/workflows/publish.yml` decodes and force-pushes to `gh-pages`.
+
+# Adding a lodge visit to "Traveling Man"
+
+Same steps, different data file: add an entry to `traveling-man/visits.json`, then run `python3 build_travels.py`
+(it builds both the Travel Journal and Traveling Man, including the homepage cards between `<!--VISITS-->` markers).
+Fields: `slug`, `title` (lodge or Grand Lodge name), `place` (City, State), `date` (display), `sort` (YYYY-MM-DD),
+`image`/`alt` (empty = photo slot), `teaser`, `body` (paragraphs), optional `photos`, `draft`.
+Pages appear at `traveling-man/<slug>/`. Only verified visits (e.g. from the Masonic Life Facebook page or George).
