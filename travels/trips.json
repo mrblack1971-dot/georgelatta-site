@@ -1,18 +1,60 @@
 [
- {"slug":"st-pete-2026","title":"St. Petersburg, Florida","date":"October 2026","sort":"2026-10-18",
-  "image":"","alt":"",
-  "teaser":"Tagging along with Trish on her work trip to the Tampa Bay area, and a visit to a fellow lodge.",
-  "draft":true,
-  "body":["In October 2026 Trish's work brought her to a team gathering in Clearwater, Florida (October 19–21), and I came along for the trip to the St. Petersburg area.","While there, I reached out to St. Petersburg Lodge No. 139 as a visiting Brother from Palmetto Lodge No. 19, and was warmly welcomed to join them for dinner and their meeting on October 20.","<!-- DRAFT: George to add his story, sights and photos -->"]},
- {"slug":"supreme-road-trip-arizona-2026","title":"Supreme Road Trip to Arizona","date":"2026","sort":"2026-01-01",
-  "image":"fb-backroads-mississippi-george-selfie-roadside","alt":"George on the roadside during the road trip",
-  "teaser":"A long road west, with stops along the way through Mississippi.",
-  "draft":true,
-  "photos":[["fb-backroads-mississippi-george-selfie-roadside","Roadside stop in Mississippi"],["fb-backroads-mississippi-riverboat-museum","Riverboat museum, Mississippi"],["fb-backroads-mississippi-river-museum-panorama","River museum, Mississippi"]],
-  "body":["My road trip to Arizona in 2026. Along the way we made stops in Mississippi, including a riverboat museum and a river museum.","<!-- DRAFT: full write-up of the Arizona trip coming from the album catalog -->"]},
- {"slug":"anniversary-cruise-2025","title":"21st Anniversary Cruise","date":"November 2025","sort":"2025-11-01",
-  "image":"georgelatta_1769530617_409","alt":"George and Trish on their anniversary cruise",
-  "teaser":"Nine days at sea out of Ft Lauderdale to celebrate 21 years with Trish.",
-  "draft":true,
-  "body":["For our 21st wedding anniversary my wife Trish &amp; I took a 9 day cruise out of Ft Lauderdale Florida in November 2025.","Traveling man at heart.","<!-- DRAFT: George to add ports, highlights and photos -->"]}
+ {
+  "slug": "st-pete-2026",
+  "title": "St. Petersburg, Florida",
+  "date": "October 2026",
+  "sort": "2026-10-18",
+  "image": "",
+  "alt": "",
+  "teaser": "Tagging along with Trish on her work trip to the Tampa Bay area, and a visit to a fellow lodge.",
+  "draft": true,
+  "body": [
+   "In October 2026 Trish's work brought her to a team gathering in Clearwater, Florida (October 19\u201321), and I came along for the trip to the St. Petersburg area.",
+   "While there, I visited St. Petersburg Lodge No. 139 as a visiting Brother from Palmetto Lodge No. 19, and joined the Brethren for dinner and their meeting on October 20.",
+   "<!-- DRAFT: waiting on George's photo (set \"image\") and his story -->"
+  ]
+ },
+ {
+  "slug": "supreme-road-trip-arizona-2026",
+  "title": "Supreme Road Trip to Arizona",
+  "date": "2026",
+  "sort": "2026-01-01",
+  "image": "fb-backroads-mississippi-george-selfie-roadside",
+  "alt": "George on the roadside during the road trip",
+  "teaser": "A long road west, with stops along the way through Mississippi.",
+  "draft": true,
+  "photos": [
+   [
+    "fb-backroads-mississippi-george-selfie-roadside",
+    "Roadside stop in Mississippi"
+   ],
+   [
+    "fb-backroads-mississippi-riverboat-museum",
+    "Riverboat museum, Mississippi"
+   ],
+   [
+    "fb-backroads-mississippi-river-museum-panorama",
+    "River museum, Mississippi"
+   ]
+  ],
+  "body": [
+   "My road trip to Arizona in 2026. Along the way we made stops in Mississippi, including a riverboat museum and a river museum.",
+   "<!-- DRAFT: full write-up of the Arizona trip coming from the album catalog -->"
+  ]
+ },
+ {
+  "slug": "anniversary-cruise-2025",
+  "title": "21st Anniversary Cruise",
+  "date": "November 2025",
+  "sort": "2025-11-01",
+  "image": "georgelatta_1769530617_409",
+  "alt": "George and Trish on their anniversary cruise",
+  "teaser": "Nine days at sea out of Ft Lauderdale to celebrate 21 years with Trish.",
+  "draft": true,
+  "body": [
+   "For our 21st wedding anniversary my wife Trish &amp; I took a 9 day cruise out of Ft Lauderdale Florida in November 2025.",
+   "Traveling man at heart.",
+   "<!-- DRAFT: George to add ports, highlights and photos -->"
+  ]
+ }
 ]
