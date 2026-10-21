@@ -1,0 +1,26 @@
+name: decode-and-publish
+on:
+  push:
+    branches: [main]
+    paths: ['_b64/**', '.github/workflows/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode images
+        run: |
+          
+          cat _b64/part_* | base64 -d | tar xz
+          git rm -r -q --cached _b64 || true
+          rm -rf _b64
+          touch .nojekyll
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Decode images to binary" || echo "nothing to commit"
+          git push origin HEAD:main
+          git push -f origin HEAD:gh-pages
