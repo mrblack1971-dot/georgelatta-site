@@ -35,7 +35,7 @@
   "slug": "columbia-lodge-25-ct",
   "title": "Grand Lodge of Connecticut &amp; Columbia Lodge No. 25",
   "place": "South Glastonbury, Connecticut",
-  "date": "June (year to confirm, c. 2011&ndash;12)",
+  "date": "June, c. 2011&ndash;12 (year to confirm)",
   "sort": "2012-06-01",
   "image": "ml-03a-columbia-lodge-25-south-glastonbury-ct",
   "alt": "George with the Worshipful Master of Columbia Lodge No. 25",
@@ -53,7 +53,7 @@
   "slug": "maine-lodges-2011",
   "title": "Lodges around Maine",
   "place": "Maine, including Composite Lodge #158, La Grange",
-  "date": "2011",
+  "date": "2011 (per album title)",
   "sort": "2011-06-01",
   "image": "ml-04a-maine-lodges-2011",
   "alt": "Composite Lodge #158, La Grange, Maine",
@@ -78,7 +78,7 @@
   "slug": "anah-temple-shrine-bangor",
   "title": "Anah Temple Shrine",
   "place": "Bangor, Maine",
-  "date": "c. 2011 (to confirm)",
+  "date": "c. 2011 (year to confirm)",
   "sort": "2011-05-01",
   "image": "ml-05a-anah-temple-shrine-bangor-me",
   "alt": "Anah Temple Shrine building, Bangor, Maine",
@@ -103,12 +103,12 @@
   "slug": "fellowship-lodge-bridgewater-2010",
   "title": "Fellowship Lodge &amp; the Grand Lodge of Massachusetts",
   "place": "Bridgewater &amp; Boston, Massachusetts",
-  "date": "September 2010",
+  "date": "September 2010 (to confirm)",
   "sort": "2010-09-01",
   "image": "ml-02a-fellowship-lodge-bridgewater-ma-2010",
   "alt": "George in the East at Fellowship Lodge, Bridgewater",
   "draft": true,
-  "teaser": "Returning a 1945 Masonic book, and a 275th commemorative coin from South Carolina.",
+  "teaser": "Returning a 1945 Masonic book, and presenting a commemorative coin from South Carolina.",
   "photos": [
    [
     "ml-02a-fellowship-lodge-bridgewater-ma-2010",
@@ -121,7 +121,8 @@
   ],
   "body": [
    "Had a great trip. Drove to Bridgewater, Massachusetts to return a Masonic book (from 1945) &amp; for fellowship.",
-   "Made it to the Grand Lodge of Massachusetts in Boston to present SK Corr with a 275th commemorative coin/medal from South Carolina&rsquo;s AFM.",
+   "Made it to the Grand Lodge of Massachusetts in Boston to present SK Corr with a commemorative coin/medal from South Carolina&rsquo;s AFM.",
+   "<!-- HOLD: original caption says '275th'; the Grand Lodge of SC's 275th was 2012 (founded 1737), so the year or coin needs George's confirmation -->",
    "<!-- DRAFT: from George's Masonic Life Facebook album; pending his read -->"
   ]
  },
