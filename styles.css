@@ -78,3 +78,5 @@ footer{background:var(--navy);color:#c5cde0;text-align:center;padding:22px;font-
  .nav nav::-webkit-scrollbar{display:none}.nav nav a{white-space:nowrap;padding:8px 0}
  html{scroll-padding-top:100px}
 }
+.sunsets{margin-top:22px}.sunset-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px}
+.sunset-row .gi img{aspect-ratio:4/3;border-radius:8px}.sunset-row figcaption{font-size:.78rem;color:#d7e4da;margin-top:4px}
