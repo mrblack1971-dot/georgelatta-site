@@ -158,6 +158,138 @@
   "photos": []
  },
  {
+  "slug": "switzerland-liechtenstein-2023",
+  "title": "Switzerland & Liechtenstein",
+  "date": "June 30 – July 3, 2023",
+  "sort": "2023-07-03",
+  "image": "swiss-2023-lake",
+  "alt": "Alpine lake and mountains in Switzerland, June–July 2023",
+  "teaser": "Switzerland and Liechtenstein in late June and early July 2023 &mdash; lakes, mountains, a chairlift, the Floomzer, and L&auml;derach.",
+  "draft": false,
+  "body": [
+   "From June 30 to July 3, 2023 we traveled through Switzerland and Liechtenstein.",
+   "The days covered alpine lakes and mountain walks, a chairlift ride, the Floomzer alpine coaster, and a stop at L&auml;derach."
+  ],
+  "photos": [
+   [
+    "swiss-2023-lake",
+    "Alpine lake and mountains"
+   ],
+   [
+    "swiss-2023-jessica-lake",
+    "Jessica at the lake"
+   ],
+   [
+    "swiss-2023-shore",
+    "Along the lake shore"
+   ],
+   [
+    "swiss-2023-lake-view",
+    "Looking out over the lake"
+   ],
+   [
+    "swiss-2023-overlook",
+    "At a mountain overlook"
+   ],
+   [
+    "swiss-2023-chairlift",
+    "On the chairlift"
+   ],
+   [
+    "swiss-2023-floomzer",
+    "Jessica at the Floomzer"
+   ],
+   [
+    "swiss-2023-meadow",
+    "Jessica in an alpine meadow"
+   ],
+   [
+    "swiss-2023-laderach",
+    "At L&auml;derach"
+   ],
+   [
+    "swiss-2023-ridge",
+    "Mountain ridge view"
+   ],
+   [
+    "swiss-2023-street",
+    "Village street"
+   ],
+   [
+    "swiss-2023-valley",
+    "Looking across the valley"
+   ],
+   [
+    "swiss-2023-peaks",
+    "Alpine peaks"
+   ]
+  ]
+ },
+ {
+  "slug": "verona-2023",
+  "title": "Verona",
+  "date": "June 30, 2023",
+  "sort": "2023-06-30",
+  "image": "verona-2023-arena-arch",
+  "alt": "Stone arches of the Arena di Verona, June 2023",
+  "teaser": "Verona on June 30, 2023 &mdash; the Arena di Verona, from the arches outside to the seating inside.",
+  "draft": false,
+  "body": [
+   "On June 30, 2023 we spent a day in Verona.",
+   "We walked the Arena di Verona &mdash; the outer arches, the gates, and the stone seating looking down at the stage."
+  ],
+  "photos": [
+   [
+    "verona-2023-arena-arch",
+    "Arena di Verona arches"
+   ],
+   [
+    "verona-2023-group-arch",
+    "In an arena archway"
+   ],
+   [
+    "verona-2023-street",
+    "Along the arena wall"
+   ],
+   [
+    "verona-2023-outside",
+    "Outside the arena"
+   ],
+   [
+    "verona-2023-gate",
+    "Arena gate"
+   ],
+   [
+    "verona-2023-jessica-gate",
+    "Jessica by the gate"
+   ],
+   [
+    "verona-2023-jessica",
+    "Jessica at the arena"
+   ],
+   [
+    "verona-2023-corridor",
+    "Interior corridor"
+   ],
+   [
+    "verona-2023-selfie",
+    "Inside the arena"
+   ],
+   [
+    "verona-2023-interior",
+    "Looking across the arena floor"
+   ],
+   [
+    "verona-2023-bleachers",
+    "On the stone seating"
+   ],
+   [
+    "verona-2023-from-top",
+    "Looking down from the upper seats"
+   ]
+  ]
+ },
+ {
   "slug": "pisa-2023",
   "title": "Pisa",
   "date": "June 29, 2023",
@@ -362,6 +494,46 @@
   ]
  },
  {
+  "slug": "rome-flea-market-2023",
+  "title": "Sunday flea market, Rome",
+  "date": "June 25, 2023",
+  "sort": "2023-06-25",
+  "image": "rome-flea-2023-stalls",
+  "alt": "Porta Portese flea market stalls in Rome, June 2023",
+  "teaser": "Porta Portese flea market in Rome on June 25, 2023 &mdash; market stalls, a river walk, and the trip back.",
+  "draft": false,
+  "body": [
+   "On June 25, 2023 we went to the Porta Portese flea market in Rome.",
+   "The morning covered the market stalls, a walk by the river, and the train ride back."
+  ],
+  "photos": [
+   [
+    "rome-flea-2023-stalls",
+    "Porta Portese market stalls"
+   ],
+   [
+    "rome-flea-2023-jessica-river",
+    "Jessica by the river"
+   ],
+   [
+    "rome-flea-2023-station",
+    "Jessica at the train station"
+   ],
+   [
+    "rome-flea-2023-bakery",
+    "Jessica in a bakery"
+   ],
+   [
+    "rome-flea-2023-street",
+    "On a sunny street"
+   ],
+   [
+    "rome-flea-2023-bus",
+    "On the bus"
+   ]
+  ]
+ },
+ {
   "slug": "castle-bracciano-2023",
   "title": "Castle Bracciano",
   "date": "June 24, 2023",
@@ -426,6 +598,58 @@
    [
     "bracciano-2023-studiolo-sign",
     "Studiolo di Baldassarre Odescalchi"
+   ]
+  ]
+ },
+ {
+  "slug": "rome-stroll-2023",
+  "title": "A stroll through Rome",
+  "date": "June 18, 2023",
+  "sort": "2023-06-18",
+  "image": "rome-stroll-2023-spanish-steps",
+  "alt": "Spanish Steps in Rome, June 2023",
+  "teaser": "A stroll through Rome on June 18, 2023 &mdash; the Pyramid of Cestius, the Spanish Steps, Trevi Fountain, and the Fontana del Tritone.",
+  "draft": false,
+  "body": [
+   "On June 18, 2023 we took a stroll through Rome.",
+   "Stops included the Pyramid of Cestius, the Spanish Steps, Trevi Fountain, and the Fontana del Tritone."
+  ],
+  "photos": [
+   [
+    "rome-stroll-2023-spanish-steps",
+    "Spanish Steps"
+   ],
+   [
+    "rome-stroll-2023-pyramid",
+    "Pyramid of Cestius"
+   ],
+   [
+    "rome-stroll-2023-steps-group",
+    "At the Spanish Steps"
+   ],
+   [
+    "rome-stroll-2023-steps-up",
+    "Looking up the Spanish Steps"
+   ],
+   [
+    "rome-stroll-2023-column",
+    "By the Column of the Immaculate Conception"
+   ],
+   [
+    "rome-stroll-2023-trevi",
+    "Trevi Fountain"
+   ],
+   [
+    "rome-stroll-2023-trevi-selfie",
+    "At Trevi Fountain"
+   ],
+   [
+    "rome-stroll-2023-triton",
+    "Fontana del Tritone"
+   ],
+   [
+    "rome-stroll-2023-jessica-steps",
+    "Jessica at the Spanish Steps"
    ]
   ]
  },
@@ -578,6 +802,74 @@
    [
     "cpa-2023-jessica-ice-cream",
     "Jessica with ice cream on the balcony"
+   ]
+  ]
+ },
+ {
+  "slug": "prague-kutna-hora-2023",
+  "title": "Prague & Kutná Hora",
+  "date": "June 3–7, 2023",
+  "sort": "2023-06-07",
+  "image": "prague-2023-charles-bridge",
+  "alt": "Charles Bridge statues in Prague, June 2023",
+  "teaser": "Prague and Kutn&aacute; Hora in June 2023 &mdash; Charles Bridge, Prague Castle, the Astronomical Clock, St. Barbara&rsquo;s, and the Sedlec Ossuary.",
+  "draft": false,
+  "body": [
+   "From June 3 to 7, 2023 we were in Prague, with a day trip to Kutn&aacute; Hora.",
+   "In Prague we walked Charles Bridge, Prague Castle, and Old Town around the Astronomical Clock. In Kutn&aacute; Hora we visited St. Barbara&rsquo;s Cathedral and the Sedlec Ossuary."
+  ],
+  "photos": [
+   [
+    "prague-2023-charles-bridge",
+    "On Charles Bridge"
+   ],
+   [
+    "prague-2023-night-bridge",
+    "Charles Bridge at night"
+   ],
+   [
+    "prague-2023-old-town",
+    "Old Town Square"
+   ],
+   [
+    "prague-2023-castle-guards",
+    "Guards at Prague Castle"
+   ],
+   [
+    "prague-2023-rooftops",
+    "Over the rooftops of Prague"
+   ],
+   [
+    "prague-2023-bridge-tower",
+    "Charles Bridge tower"
+   ],
+   [
+    "prague-2023-st-barbara",
+    "St. Barbara&rsquo;s Cathedral, Kutn&aacute; Hora"
+   ],
+   [
+    "prague-2023-st-barbara-vault",
+    "Vaulted ceiling at St. Barbara&rsquo;s"
+   ],
+   [
+    "prague-2023-ossuary",
+    "Inside the Sedlec Ossuary"
+   ],
+   [
+    "prague-2023-kutna-group",
+    "At the Sedlec church, Kutn&aacute; Hora"
+   ],
+   [
+    "prague-2023-orloj",
+    "Prague Astronomical Clock"
+   ],
+   [
+    "prague-2023-old-town-view",
+    "View over Old Town"
+   ],
+   [
+    "prague-2023-castle-court",
+    "In a Prague Castle courtyard"
    ]
   ]
  },
