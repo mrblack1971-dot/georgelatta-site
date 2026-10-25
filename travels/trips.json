@@ -946,6 +946,98 @@
   ]
  },
  {
+  "slug": "euro-father-son-2008",
+  "title": "Euro Trip — Father and Son",
+  "date": "October 2008",
+  "sort": "2008-10-25",
+  "image": "euro-2008-colosseum",
+  "alt": "The Colosseum in Rome, October 2008",
+  "teaser": "October 2008 &mdash; a father-and-son trip through Italy, the Alps, Kutn&aacute; Hora, and Prague.",
+  "draft": false,
+  "body": [
+   "In October 2008 we took a father-and-son trip through Europe.",
+   "The days covered Rome and the Vatican, Ostia Antica, alpine roads and a cable car, then Kutn&aacute; Hora and Prague &mdash; including the Sedlec Ossuary, St. Barbara&rsquo;s, Charles Bridge, and the Astronomical Clock."
+  ],
+  "photos": [
+   [
+    "euro-2008-colosseum",
+    "The Colosseum, Rome"
+   ],
+   [
+    "euro-2008-monselice",
+    "Citt&agrave; di Monselice sign"
+   ],
+   [
+    "euro-2008-vatican-court",
+    "Courtyard at the Vatican Museums"
+   ],
+   [
+    "euro-2008-vatican-entrance",
+    "At the Musei Vaticani entrance"
+   ],
+   [
+    "euro-2008-vatican-gallery",
+    "Father and son in a Vatican gallery"
+   ],
+   [
+    "euro-2008-st-peters-square",
+    "St. Peter&rsquo;s Square"
+   ],
+   [
+    "euro-2008-st-peters",
+    "Inside St. Peter&rsquo;s Basilica"
+   ],
+   [
+    "euro-2008-pantheon",
+    "At the Pantheon"
+   ],
+   [
+    "euro-2008-forum",
+    "Among the ruins on the Palatine"
+   ],
+   [
+    "euro-2008-ostia-theatre",
+    "The theatre at Ostia Antica"
+   ],
+   [
+    "euro-2008-constantine",
+    "Arch of Constantine"
+   ],
+   [
+    "euro-2008-alps",
+    "In the Alps"
+   ],
+   [
+    "euro-2008-cable-car",
+    "On a cable car over the valley"
+   ],
+   [
+    "euro-2008-ossuary",
+    "Inside the Sedlec Ossuary"
+   ],
+   [
+    "euro-2008-ossuary-family",
+    "Father and son at the Sedlec Ossuary"
+   ],
+   [
+    "euro-2008-st-barbara",
+    "St. Barbara&rsquo;s Cathedral, Kutn&aacute; Hora"
+   ],
+   [
+    "euro-2008-orloj",
+    "Prague Astronomical Clock"
+   ],
+   [
+    "euro-2008-charles-bridge",
+    "On Charles Bridge"
+   ],
+   [
+    "euro-2008-prague-roofs",
+    "Over the rooftops of Prague"
+   ]
+  ]
+ },
+ {
   "slug": "europe-2007",
   "title": "Europe Trip 2007",
   "date": "2007",
@@ -1074,6 +1166,78 @@
    [
     "ireland-2003-valley",
     "A misty valley"
+   ]
+  ]
+ },
+ {
+  "slug": "england-scotland-2001",
+  "title": "England & Scotland",
+  "date": "July 2001",
+  "sort": "2001-07-31",
+  "image": "eng-scot-2001-stonehenge",
+  "alt": "Stonehenge, July 2001",
+  "teaser": "July 2001 &mdash; Stonehenge, Bath, Hadrian&rsquo;s Wall country, the Scottish Highlands, Stirling, and London.",
+  "draft": false,
+  "body": [
+   "In July 2001 I traveled through England and Scotland.",
+   "Stops included a coastal castle, Roman Vindolanda, the Roman Baths and Bath Abbey, Stonehenge, Highland roads, the Wallace Monument at Stirling, and London &mdash; Parliament, Trafalgar Square, Tower Bridge, and the London Eye."
+  ],
+  "photos": [
+   [
+    "eng-scot-2001-stonehenge",
+    "Stonehenge"
+   ],
+   [
+    "eng-scot-2001-stonehenge-george",
+    "At Stonehenge"
+   ],
+   [
+    "eng-scot-2001-roman-baths",
+    "At the Roman Baths, Bath"
+   ],
+   [
+    "eng-scot-2001-bath-abbey",
+    "Bath Abbey"
+   ],
+   [
+    "eng-scot-2001-vindolanda",
+    "Roman Vindolanda"
+   ],
+   [
+    "eng-scot-2001-castle-gate",
+    "At a castle gateway"
+   ],
+   [
+    "eng-scot-2001-coastal-castle",
+    "Castle on the coast"
+   ],
+   [
+    "eng-scot-2001-highlands",
+    "In the Scottish Highlands"
+   ],
+   [
+    "eng-scot-2001-wallace",
+    "The Wallace Monument, Stirling"
+   ],
+   [
+    "eng-scot-2001-castle-court",
+    "In a castle courtyard"
+   ],
+   [
+    "eng-scot-2001-parliament",
+    "Houses of Parliament and Big Ben"
+   ],
+   [
+    "eng-scot-2001-trafalgar",
+    "Trafalgar Square"
+   ],
+   [
+    "eng-scot-2001-tower-bridge",
+    "Tower Bridge"
+   ],
+   [
+    "eng-scot-2001-london-eye",
+    "The London Eye across the Thames"
    ]
   ]
  }
