@@ -4,7 +4,7 @@ Run after build_travels.py (build_travels.py calls it automatically). Idempotent
 import os,re,glob,html,datetime
 from PIL import Image,ImageDraw,ImageFont,ImageOps
 R=os.path.dirname(os.path.abspath(__file__))
-SITE='https://georgelatta.com/'   # canonical domain (live on Friday's domain move)
+SITE='https://georgelatta.com/'   # canonical domain (custom domain is live)
 NAVY=(20,33,61);GOLD=(201,162,39);CREAM=(250,247,240)
 F='/usr/share/fonts/truetype/sand-box/google/IBM Plex Serif/IBMPlexSerif-'
 FB={'personal':('https://www.facebook.com/TheYellowTurtle','George Latta'),

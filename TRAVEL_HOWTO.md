@@ -37,4 +37,6 @@ Pages appear at `traveling-man/<slug>/`. Only verified visits (e.g. from the Mas
 - fills `<!--FB:masonic-->`, `<!--FB:backroads-->`, `<!--FB:personal-->` button slots,
 - rewrites `sitemap.xml` and `robots.txt`.
 Facebook page URLs live in the `FB` dict at the top of `seo.py`.
-Domain move (Friday): add a `CNAME` file containing `georgelatta.com`. Until then, share previews/canonicals point at the future domain.
+Custom domain is live at georgelatta.com. The root `CNAME` file contains `georgelatta.com` (no `https://`, no path). Share previews and canonicals use that domain.
+
+`publish.yml` checks out `main` and force-pushes that whole tree to `gh-pages`, so `CNAME` on `main` is copied onto the Pages branch on the next successful publish. The workflow runs when a push touches `_b64/**` or `.github/workflows/**`, or when someone runs **decode-and-publish** by hand. A commit that only adds `CNAME` does not publish by itself. Keep `CNAME` on `main` — a later force-push without it would drop the custom domain from `gh-pages`.
